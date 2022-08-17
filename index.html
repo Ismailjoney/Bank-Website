@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple bank page</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <!-- decleare heading tag and useing taliwind css -->
+        <h1 class ="text-6xl text-center font-bold mt-9 ">Welcome to <span class ="text-emerald-700">Baper Bank</span> Account</h1>
+    </header>
+    <main>
+        <section class="mt-12 ">
+            <!-- form input -->
+            <div class="bg-blue-800 py-9 px-9 w-9/12 mx-auto">
+                <!-- email -->
+                <input class="w-9/12 block mb-4 px-3 py-2" type="email" name="" id="user-email" placeholder="enter your emeil">
+                <!-- password -->
+                <input class="w-9/12 block mb-4 px-3 py-2" type="password" name="" id="user-password" placeholder="enter your password">
+                <!-- button -->
+                <button id="login-submit-btn" class="bg-rose-600 text-white font-bold  px-4 py-2 hover:bg-sky-700 rounded-lg">Submit</button>
+            </div>
+        </section>
+    </main>
+    <!-- javascript file link -->
+    <script src="bank.js"></script>
+</body>
+</html>

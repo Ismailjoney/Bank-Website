@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bank amount page </title>
+     <!-- tailwind link -->
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <!-- decleare heading tag and useing taliwind css -->
+        <h1 class ="text-6xl text-center font-bold mt-9 ">Welcome to <span class ="text-emerald-700">withdraw and deposite </span>page</h1>
+    </header>
+    <main>
+        <section class="w-9/12 mx-auto  mt-12">
+            <!-- grid -->
+            <div class="grid grid-cols-3 gap-4 ">
+                <!-- single column no 1 -->
+                <div class="p-8 bg-teal-200">
+                    <h3 class="text-3xl mb-3">Deposite</h3>
+                    <h2 class ="text-2xl font-bold">$-<span id ="deposite-counter"> 00</span></h2>
+                </div>
+                <!-- single column  no 2 -->
+                <div class="p-8 bg-fuchsia-400">
+                    <h3 class="text-3xl mb-3">withdraw</h3>
+                    <h2 class ="text-2xl font-bold">$ <span id ="withdraw-counter"> 00 </span></h2>
+                </div>
+                <!-- single column no 3 -->
+                <div class="p-8 bg-blue-400">
+                    <h3 class="text-3xl mb-3">blance</h3>
+                    <h2 class ="text-2xl font-bold">$ <Span id="Account-blance">1240</Span></h2>
+                </div>
+            </div>
+        </section>
+        <section class="w-9/12 mx-auto   mt-12">
+             <!-- grid -->
+             <div class="grid grid-cols-2 gap-4 ">
+                <!-- single column no 1-->
+                <div class="p-8 bg-teal-200">
+                    <h3 class="text-3xl mb-3">Please Deposite</h3>
+                    <input id= "deposite-field" class="w-9/12 block mb-4 px-3 py-2" type="text" name=""  placeholder="$ enter your amount">
+                    <!-- button -->
+                <button id="Deposite-submit-btn" class="bg-rose-600 text-white font-bold  px-4 py-2 hover:bg-sky-700 rounded-lg">Submit</button>
+                </div>
+                <!-- single column no 2 -->
+                <div class="p-8 bg-fuchsia-400">
+                    <h3 class="text-3xl mb-3"> Please withdraw</h3>
+                    <input id="withdraw-filed" class="w-9/12 block mb-4 px-3 py-2" type="email" name=""  placeholder="$ how much you want">
+                    <!-- button -->
+                <button id="withdraw-submit-btn" class="bg-rose-600 text-white font-bold  px-4 py-2 hover:bg-sky-700 rounded-lg">Withdraw</button>
+                
+                     
+                </div>
+             </div>
+        </section>
+    </main>
+    <script src="amountpage.js"></script>
+    <script src="amountpage2.js"></script>
+</body>
+</html>
