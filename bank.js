@@ -9,7 +9,7 @@ document.getElementById(`login-submit-btn`).addEventListener(`click`,function(){
     const password = document.getElementById(`user-password`);
     const userPassword = password.value;
     
-    if( userEmail == "mohammadismail.joney@gmail.com" && userPassword == 12345 ){
+    if( userEmail == "mohammadismail.joney@gmail.com" && userPassword == "12345" ){
         window.location.href="amountpage.html";
     }
     else{
